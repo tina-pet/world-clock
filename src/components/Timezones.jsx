@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { LiveClock } from './LiveClock.jsx';
-import { Time } from './Time.jsx';
 import '../style.css';
 
 export const Timezones = () => {
