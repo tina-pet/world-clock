@@ -7,7 +7,7 @@ export const Timezones = () => {
   const [timezone, setTimezone] = useState('Europe/Prague');
 
   useEffect(() => {
-    fetch('http://worldtimeapi.org/api/timezone')
+    fetch('https://worldtimeapi.org/api/timezone')
       .then((response) => response.json())
       .then((json) => setZones(json))
 
